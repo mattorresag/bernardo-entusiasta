@@ -11,7 +11,9 @@
   "dependencies": {
     "@fontsource/poppins": "^5.0.13",
     "@fontsource/pt-serif": "^5.0.20",
+    "embla-carousel-react": "^8.0.2",
     "next": "12.2.0",
+    "next-seo": "^6.5.0",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
