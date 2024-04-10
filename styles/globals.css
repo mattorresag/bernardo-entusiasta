@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import '@fontsource/pt-serif/400.css';
+@import '@fontsource/pt-serif/700.css';
+@import '@fontsource/poppins/300.css';
+@import '@fontsource/poppins/400.css';
+@import '@fontsource/poppins/500.css';
+@import '@fontsource/poppins/600.css';
+@import '@fontsource/poppins/700.css';
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  max-width: 100vw;
+  font-family: 'Poppins', sans-serif;
+}
+
+#__next {
+  height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  min-width: 0;
+}
+
+@layer components {
+  .display {
+    @apply text-black text-[88px] font-[700] leading-[130%] font-pt tracking-[-1.76px];
+  }
+  .h1 {
+    @apply text-black text-[64px] font-[700] leading-[125%] tracking-[-2px] font-pt;
+  }
+
+  .h2 {
+    @apply text-black text-[32px] font-poppins font-[500] leading-[130%] tracking-[-0.64px];
+  }
+  .h3 {
+    @apply text-black text-[16px] font-poppins font-[500] leading-[130%] tracking-[-0.32px];
+  }
+  .paragraph-lg {
+    @apply text-black text-[32px] font-poppins font-[300] leading-[150%] tracking-[-0.64px];
+  }
+  .paragraph {
+    @apply text-black text-[20px] font-poppins font-[400] leading-[150%] tracking-[-0.4px];
+  }
+
+  .caps-xl {
+    @apply text-black text-[24px] uppercase font-poppins font-[600] leading-[100%] tracking-[2.4px];
+  }
+
+  .caps-lg {
+    @apply text-black text-[16px] uppercase font-poppins font-[600] leading-[100%] tracking-[1.6px];
+  }
+
+  .caps {
+    @apply text-black text-[14px] uppercase font-poppins font-[600] leading-[100%] tracking-[1.4px];
+  }
+}
