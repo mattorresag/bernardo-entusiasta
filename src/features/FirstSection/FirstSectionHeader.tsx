@@ -127,7 +127,7 @@ export const FirstSectionHeader = () => {
           </clipPath>
         </defs>
       </svg>
-      <button className="h-16  flex max-h-16 items-center">
+      <button className="h-16  flex max-h-16 items-center z-[1]">
         <Flex className="p-5 h-16 items-center border-[1px] border-white-20">
           <p className="caps text-white-100">INSCREVA-SE AGORA</p>
         </Flex>

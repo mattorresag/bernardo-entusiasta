@@ -11,6 +11,7 @@ module.exports = {
         black: {
           100: "rgba(0, 0, 0, 1)",
           87: "rgba(0, 0, 0, 0.87)",
+          40: "rgba(0, 0, 0, 0.4)",
           bg: "#050505",
         },
         white: {
@@ -24,6 +25,7 @@ module.exports = {
       },
       backgroundImage: {
         gradient: "linear-gradient(106deg, #080808 23.59%, #1A1617 67.07%)",
+        beneficios: "linear-gradient(180deg, rgba(0,0,0,0.95) 0%, #000 100%)",
         footer:
           "linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(153, 153, 153, 0.00) 100%)",
         juntese:
