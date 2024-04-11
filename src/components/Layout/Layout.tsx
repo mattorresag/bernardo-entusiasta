@@ -1,6 +1,7 @@
 import React from "react";
 import { Flex } from "../Flex/Flex";
 import PageMeta from "../PageMeta/PageMeta";
+import { Footer } from "../Footer/Footer";
 interface Props {
   children: React.ReactNode;
   subtitle?: string;
@@ -20,7 +21,7 @@ export const Layout = ({
             {children}
           </Flex>
         </Flex>
-        {/* {showFooter && <Footer />} */}
+        <Footer />
       </div>
     </>
   );

@@ -9,8 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fontsource/inter": "^5.0.17",
     "@fontsource/poppins": "^5.0.13",
     "@fontsource/pt-serif": "^5.0.20",
+    "@fontsource/sora": "^5.0.17",
     "embla-carousel-react": "^8.0.2",
     "next": "12.2.0",
     "next-seo": "^6.5.0",

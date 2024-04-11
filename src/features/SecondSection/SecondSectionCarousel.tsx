@@ -42,7 +42,7 @@ export const SecondSectionCarousel = () => {
 
   return (
     <Flex
-      className="w-full bg-black-100 h-16  border-b-[1px] border-white-100"
+      className="w-full bg-black-100 h-16  border-b-[1px] border-white-20"
       align="center"
     >
       <div ref={emblaRef} className="cursor-pointer overflow-hidden w-full">
