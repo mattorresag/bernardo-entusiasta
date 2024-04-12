@@ -5,7 +5,7 @@ import Link from "next/link";
 export const Footer = () => {
   return (
     <footer>
-      <Flex className="items-center flex-col bg-footer bg-black-100 lg:pt-[120px] lg:pb-[82px] w-full relative overflow-hidden">
+      <Flex className="items-center flex-col bg-footer bg-black-100 pt-20 lg:pt-[120px] pb-12 lg:pb-[82px] w-full relative overflow-hidden">
         <Flex className="mb-16">
           <svg
             width="260"
@@ -187,11 +187,11 @@ export const Footer = () => {
             </defs>
           </svg>
         </Flex>
-        <Flex className="w-full h-20 z-[1] mb-20">
+        <Flex className="max-lg:px-[5%] w-full lg:h-20 z-[1] mb-20 max-lg:flex-col">
           <Link target="_blank" passHref href="/">
-            <a className="w-full">
-              <Flex className="w-full h-full border-[1px] border-white-20 border-l-0 justify-center">
-                <Flex className="items-center text-[24px] font-[300] leading-[110%] text-white-100 font-inter">
+            <a className="w-full h-20">
+              <Flex className="w-full h-full border-[1px] max-lg:border-r-0 uppercase border-white-20 border-l-0 justify-center">
+                <Flex className="items-center text-[16px] tracking-[1.6px] font-[600] leading-[100%] text-white-100 font-poppins">
                   Instagram
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -220,9 +220,9 @@ export const Footer = () => {
             </a>
           </Link>
           <Link target="_blank" passHref href="/">
-            <a className="w-full">
-              <Flex className="w-full h-full border-[1px] border-white-20 border-l-0 justify-center">
-                <Flex className="items-center text-[24px] font-[300] leading-[110%] text-white-100 font-inter">
+            <a className="w-full h-20">
+              <Flex className="w-full h-full border-[1px] max-lg:border-r-0 uppercase border-white-20 border-l-0 justify-center">
+                <Flex className="items-center text-[16px] tracking-[1.6px] font-[600] leading-[100%] text-white-100 font-poppins">
                   Youtube
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -251,9 +251,9 @@ export const Footer = () => {
             </a>
           </Link>
           <Link target="_blank" passHref href="/">
-            <a className="w-full">
-              <Flex className="w-full h-full border-[1px] border-white-20 border-l-0 justify-center">
-                <Flex className="items-center text-[24px] font-[300] leading-[110%] text-white-100 font-inter">
+            <a className="w-full h-20">
+              <Flex className="w-full h-full border-[1px] max-lg:border-r-0 uppercase border-white-20 border-l-0 justify-center">
+                <Flex className="items-center text-[16px] tracking-[1.6px] font-[600] leading-[100%] text-white-100 font-poppins">
                   TikTok
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -282,9 +282,9 @@ export const Footer = () => {
             </a>
           </Link>
           <Link target="_blank" passHref href="/">
-            <a className="w-full">
-              <Flex className="w-full h-full border-[1px] border-white-20 border-l-0 justify-center">
-                <Flex className="items-center text-[24px] font-[300] leading-[110%] text-white-100 font-inter">
+            <a className="w-full h-20">
+              <Flex className="w-full h-full border-[1px] max-lg:border-r-0 uppercase border-white-20 border-l-0 justify-center">
+                <Flex className="items-center text-[16px] tracking-[1.6px] font-[600] leading-[100%] text-white-100 font-poppins">
                   Twitter
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -313,8 +313,8 @@ export const Footer = () => {
             </a>
           </Link>
         </Flex>
-        <Flex className="w-full justify-center items-center">
-          <p className="text-[14px] font-[400] font-inter text-white-70">
+        <Flex className="w-full px-[5%] justify-center items-center">
+          <p className="h4 text-center text-white-70">
             Todos os direitos reservados 2024 © Bernardo Britto Entusiasta
           </p>
         </Flex>

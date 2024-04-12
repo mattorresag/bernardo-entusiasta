@@ -4,7 +4,7 @@ import { ConecteSeAnimation } from "./ConecteSeAnimation";
 
 export const ConecteSe = () => {
   return (
-    <Flex className="w-full lg:py-[160px] bg-black-100 items-center flex-col gap-[120px] relative">
+    <Flex className="w-full py-20 lg:py-[160px] bg-black-100 items-center flex-col gap-[120px] relative">
       <Flex className="absolute w-full right-0 top-0">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -56,16 +56,16 @@ export const ConecteSe = () => {
           </defs>
         </svg>
       </Flex>
-      <Flex className="flex-col gap-16 max-w-[855px] items-center">
-        <p className="font-sora text-white-87 text-center text-[32px] font-[300] leading-[150%] tracking-[-0.64px]">
+      <Flex className="max-lg:px-[5%] flex-col gap-10 lg:gap-16 max-w-[855px] items-center">
+        <p className="font-sora text-white-87 text-center text-[20px] lg:text-[32px] font-[400] lg:font-[300] leading-[150%] tracking-[-0.4px] lg:tracking-[-0.64px]">
           Conecte-se com entusiastas que compartilham essa mesma paixão em todo
           o mundo. Na Comunidade Bernardo Entusiasta, a excelência e a segurança
           andam de mãos dadas. Junte-se a nós para uma experiência única no
           universo da alta relojoaria.
         </p>
-        <button className="w-fit h-16  flex max-h-16 items-center bg-white-100">
-          <Flex className="p-5 h-16 items-center border-[1px] border-black-20">
-            <p className="font-sora text-black-87 font-[600] leading-[150%]">
+        <button className="w-full lg:w-fit h-16  flex max-h-16 items-center bg-white-100">
+          <Flex className="max-lg:w-full p-5 h-16 justify-center items-center border-r-0 border-[1px] border-black-20">
+            <p className="font-sora uppercase text-black-87 font-[600] leading-[150%]">
               Inscreva-se agora
             </p>
           </Flex>

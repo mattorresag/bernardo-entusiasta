@@ -16,7 +16,7 @@ export const BeneficiosItem = ({
     <Flex
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
-      className={`w-1/4 z-[1] h-full p-14 justify-end flex-col ${
+      className={`w-1/3 z-[1] h-full p-14 justify-end flex-col ${
         isLast ? "" : "border-r-[2px] border-white-20/5"
       }`}
     >

@@ -4,7 +4,7 @@ import { ParceirosCarousel } from "./ParceirosCarousel";
 
 export const Parceiros = () => {
   return (
-    <Flex className="bg-black-100  lg:pt-[96px] items-center flex-col gap-[160px] relative">
+    <Flex className="bg-black-100 max-lg:px-[5%] pt-12 lg:pt-[96px] items-center flex-col gap-20 lg:gap-[160px] relative">
       <Flex className="right-0 absolute top-0">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -56,9 +56,9 @@ export const Parceiros = () => {
           </defs>
         </svg>
       </Flex>
-      <button className="h-16 z-[1]  flex max-h-16 items-center bg-white-100">
-        <Flex className="p-5 h-16 items-center border-[1px] border-black-20">
-          <p className="font-sora text-black-87 font-[600] leading-[150%]">
+      <button className="h-16 z-[1] w-full lg:w-fit   flex max-h-16 items-center bg-white-100">
+        <Flex className="p-5 h-16 w-full justify-center items-center border-[1px] border-black-20">
+          <p className="max-lg:caps  uppercase font-sora text-black-87 font-[600] leading-[150%]">
             Quero fazer parte do Club
           </p>
         </Flex>
@@ -86,11 +86,11 @@ export const Parceiros = () => {
         </Flex>
       </button>
       <Flex className="flex-col gap-14 items-center">
-        <Flex className="flex-col items-center gap-3">
-          <p className="text-white-100 font-sora text-[48px] font-[600] leading-[125%] tracking-[-2px]">
+        <Flex className="max-lg:px-[5%] flex-col items-center gap-3">
+          <p className="text-white-100 font-pt text-[48px] font-[600] leading-[125%] tracking-[-2px]">
             Parceiros
           </p>
-          <p className="text-[20px] font-sora text-white-87 font-[300] leading-[110%] tracking-[-0.4px]">
+          <p className="lg:text-[20px] text-white-87 max-w-[556px] text-center lg:font-[300] leading-[150%] lg:leading-[110%] tracking-[-0.32px] lg:tracking-[-0.4px]">
             Lorem ipsum dolor sit amet consectetur. Sit vitae vel fermentum dui
             iaculis sem amet. Tellus interdum
           </p>

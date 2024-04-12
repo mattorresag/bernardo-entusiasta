@@ -45,6 +45,11 @@ a {
   .textdisplay {
     @apply text-black-100 text-[88px] font-[700] leading-[130%] font-pt tracking-[-1.76px];
   }
+
+  .textdisplay-sm {
+    @apply text-[32px] font-[700] leading-[130%] font-pt tracking-[-0.64px];
+  }
+
   .h1 {
     @apply text-black-100 text-[64px] font-[700] leading-[125%] tracking-[-2px] font-pt;
   }
@@ -62,6 +67,10 @@ a {
     @apply text-black-100 text-[20px] font-poppins font-[400] leading-[150%] tracking-[-0.4px];
   }
 
+  .paragraph-sm {
+    @apply text-[16px] font-poppins font-[400] leading-[150%] tracking-[-0.32px];
+  }
+
   .caps-xl {
     @apply text-black-100 text-[24px] uppercase font-poppins font-[600] leading-[100%] tracking-[2.4px];
   }
@@ -72,5 +81,9 @@ a {
 
   .caps {
     @apply text-black-100 text-[14px] uppercase font-poppins font-[600] leading-[100%] tracking-[1.4px];
+  }
+
+  .caps-sm {
+    @apply text-black-100 text-[12px] uppercase font-poppins font-[600] leading-[100%] tracking-[1.2px];
   }
 }

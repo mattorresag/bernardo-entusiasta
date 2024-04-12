@@ -58,12 +58,12 @@ export const SobreText = () => {
     };
   }, []);
   return (
-    <Flex className=" pl-[10%] w-1/2 2xl:pl-[180px] flex-col gap-[120px]">
+    <Flex className=" px-[5%] lg:pl-[10%] lg:pr-0 w-full lg:w-1/2 2xl:pl-[180px] flex-col gap-14 lg:gap-[120px]">
       <Flex className="flex-col gap-8">
-        <p className="font-sora text-[24px] font-[700] text-white-100 leading-[150%] tracking-[2.4px] uppercase">
+        <p className="font-sora text-[24px] font-[600] text-white-100 leading-[150%] tracking-[2.4px] uppercase">
           Sobre
         </p>
-        <p className="font-sora text-[20px] text-white-87 tracking-[-0.4px] leading-[150%] font-[300]">
+        <p className="font-sora text-[16px] lg:text-[20px] text-white-87 tracking-[-0.32px] lg:tracking-[-0.4px] leading-[150%] font-[300]">
           {selected}
         </p>
       </Flex>

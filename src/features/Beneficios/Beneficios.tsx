@@ -35,7 +35,7 @@ export const Beneficios = () => {
         }}
       />
       <Flex
-        className={`w-1/4 z-[1] h-full 2xl:pl-20 p-14 justify-between flex-col border-r-[2px] border-white-20/5`}
+        className={`w-full lg:w-1/4 z-[1] h-full 2xl:pl-20 p-14 justify-between flex-col border-r-[2px] border-white-20/5`}
       >
         <p className="font-sora text-[54px] min-[1800px]:text-[64px] text-white-100 font-[600] leading-[125%] tracking-[-2px]">
           Benefícios
@@ -55,18 +55,20 @@ export const Beneficios = () => {
           </p>
         </Flex>
       </Flex>
-      {cards.map((card, index) => {
-        if (index === 0) return null;
-        return (
-          <BeneficiosItem
-            key={index}
-            title={card.title}
-            isLast={index === cards.length - 1}
-            onMouseEnter={() => setCurrentImage(card.image)}
-            onMouseLeave={() => setCurrentImage(cards[0].image)}
-          />
-        );
-      })}
+      <Flex className="hidden lg:flex w-3/4 h-full">
+        {cards.map((card, index) => {
+          if (index === 0) return null;
+          return (
+            <BeneficiosItem
+              key={index}
+              title={card.title}
+              isLast={index === cards.length - 1}
+              onMouseEnter={() => setCurrentImage(card.image)}
+              onMouseLeave={() => setCurrentImage(cards[0].image)}
+            />
+          );
+        })}
+      </Flex>
     </Flex>
   );
 };
