@@ -282,7 +282,7 @@ export const Sobre = () => {
       </Flex>
       <SobreText />
       <Flex
-        className="w-full lg:hidden lg:w-1/2 h-[90vh] max-h-[400px] md:max-h-[700px] lg:max-h-[928px] relative"
+        className="w-full lg:hidden pt-[107 %]  relative"
         style={{
           backgroundImage: "url('/assets/sobre.png')",
           backgroundSize: "cover",

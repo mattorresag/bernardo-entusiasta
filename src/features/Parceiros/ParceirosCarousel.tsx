@@ -268,7 +268,7 @@ export const ParceirosCarousel = () => {
 
   return (
     <Flex
-      className="w-full bg-black-100 h-[123px]  border-b-[1px] border-white-20"
+      className="w-full bg-black-100 h-[123px] max-lg:border-b-[1px] border-white-20"
       align="center"
     >
       <div ref={emblaRef} className="cursor-pointer overflow-hidden w-screen">

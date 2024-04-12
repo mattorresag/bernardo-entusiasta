@@ -90,7 +90,7 @@ export const Parceiros = () => {
           <p className="text-white-100 font-pt text-[48px] font-[600] leading-[125%] tracking-[-2px]">
             Parceiros
           </p>
-          <p className="lg:text-[20px] text-white-87 max-w-[556px] text-center lg:font-[300] leading-[150%] lg:leading-[110%] tracking-[-0.32px] lg:tracking-[-0.4px]">
+          <p className="lg:text-[20px] text-white-87 max-w-[556px] text-center lg:font-[300] leading-[150%] tracking-[-0.32px] lg:tracking-[-0.4px]">
             Lorem ipsum dolor sit amet consectetur. Sit vitae vel fermentum dui
             iaculis sem amet. Tellus interdum
           </p>

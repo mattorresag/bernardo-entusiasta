@@ -56,7 +56,7 @@ export const FirstSectionHero = () => {
           </defs>
         </svg>
       </Flex>
-      <Flex className=" max-lg:pb-12 px-[5%] xl:pl-20 flex-col z-[1] gap-6 max-w-[1280px]">
+      <Flex className=" max-lg:pb-12 px-[5%] lg:pr-0 xl:pl-20 flex-col z-[1] gap-6 max-w-[1280px]">
         <p className="max-lg:text-center lg:text-white-100 textdisplay-sm lg:h1 2xl:textdisplay text-white-100 2xl:text-white-100">
           Descubra o Universo <br /> Exclusivo da Alta Relojoaria
         </p>
@@ -66,7 +66,7 @@ export const FirstSectionHero = () => {
         </p>
       </Flex>
       <Link href="#video">
-        <Flex className="max-lg:hidden px-[5%] xl:pl-20 min-[1350px]:pr-20 z-[1] mb-5 cursor-pointer gap-3 items-center">
+        <Flex className="max-lg:hidden px-[5%] xl:pl-20 min-[1350px]:pl-10 min-[1350px]:pr-20 z-[1] mb-5 cursor-pointer gap-3 items-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
