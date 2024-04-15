@@ -5,7 +5,7 @@ import Link from "next/link";
 export const FirstSectionHero = () => {
   return (
     <Flex className="relative w-full  justify-between gap-8 min-[1350px]:items-end flex-col min-[1350px]:flex-row">
-      <Flex className="absolute -right-0 bottom-[100px]  w-1/2 h-full ">
+      <Flex className="absolute justify-end right-0 bottom-[100px]  w-1/2 h-full ">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="1076"

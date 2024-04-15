@@ -9,15 +9,15 @@ const images = [
 ];
 
 const positions = [
-  "left-[30%] top-10 z-[1]",
-  "left-[25%] top-[100px] z-[2]",
-  "left-[45%] top-20 z-[3]",
-  "left-[35%] top-0 z-[4] h-[60%]",
+  "left-[30px] lg:left-[30%] top-10 z-[1]",
+  "left-[50px] lg:left-[25%] top-[100px] z-[2]",
+  " left-[120px] lg:left-[45%] top-20 z-[3]",
+  "left-[65px] lg:left-[35%] top-[120px] lg:top-0 z-[4] lg:h-[60%]",
 ];
 
 export const ConecteSeAnimation = () => {
   return (
-    <Flex className="h-[2000px] w-full flex-col relative ">
+    <Flex className="lg:h-[2000px] w-full flex-col relative ">
       {images.map((image, i) => (
         <img
           key={i}

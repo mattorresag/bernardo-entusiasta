@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Flex } from "../../components/Flex/Flex";
-import { BeneficiosItem } from "./BeneficiosItem";
 import { BeneficiosItens } from "./BeneficiosItens";
 import { MobileBeneficios } from "./MobileBeneficios";
 

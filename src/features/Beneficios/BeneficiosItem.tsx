@@ -22,6 +22,7 @@ export const BeneficiosItem = ({
         transition: "background-image 0.5s ease-in-out",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
+        backgroundSize: "cover",
       }} />
       <p className="font-poppins text-[30px] min-[1800px]:text-[36px] text-white-100 font-[500] leading-[130%] tracking-[-0.64px]">
         {title}
