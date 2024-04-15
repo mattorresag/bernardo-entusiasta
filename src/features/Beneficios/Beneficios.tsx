@@ -27,28 +27,23 @@ export const cards = [
 ];
 
 export const Beneficios = () => {
-  const [currentImage, setCurrentImage] = useState(cards[0].image);
 
-  const handleCurrentImage = (image: string) => {
-    setCurrentImage(image);
-  };
 
   return (
     <Flex className="h-screen max-h-[596px] min-[1366px]:max-h-[792px] w-full bg-beneficios relative">
       <div
         className="absolute h-full w-full z-[0] opacity-[0.3]"
         style={{
-          backgroundImage: `url(${currentImage})`,
-          transition: currentImage === cards[0].image ? '' : "background-image 0.8s ease-in-out",
+          backgroundImage: `url(${cards[0].image})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
       />
       <Flex className="h-full hidden min-[1366px]:flex">
-        <BeneficiosItens handleCurrentImage={handleCurrentImage} currentImage={currentImage} />
+        <BeneficiosItens />
       </Flex>
       <Flex className="w-full h-full min-[1366px]:hidden">
-        <MobileBeneficios handleCurrentImage={handleCurrentImage} />
+        <MobileBeneficios />
       </Flex>
     </Flex>
   );

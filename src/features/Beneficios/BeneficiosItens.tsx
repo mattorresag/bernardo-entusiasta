@@ -3,12 +3,7 @@ import { Flex } from "../../components/Flex/Flex";
 import { cards } from "./Beneficios";
 import { BeneficiosItem } from "./BeneficiosItem";
 
-interface Props {
-  handleCurrentImage: (image: string) => void;
-  currentImage: string;
-}
-
-export const BeneficiosItens = ({ handleCurrentImage, currentImage }: Props) => {
+export const BeneficiosItens = () => {
   return (
     <>
       <Flex
@@ -40,9 +35,7 @@ export const BeneficiosItens = ({ handleCurrentImage, currentImage }: Props) => 
               key={index}
               title={card.title}
               isLast={index === cards.length - 1}
-              smallImage={currentImage === cards[0].image ? card.smallImage : ''}
-              onMouseEnter={() => handleCurrentImage(card.image)}
-              onMouseLeave={() => handleCurrentImage(cards[0].image)}
+              smallImage={card.smallImage}
             />
           );
         })}

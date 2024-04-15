@@ -56,10 +56,10 @@ export const Parceiros = () => {
           </defs>
         </svg>
       </Flex>
-      <button className="h-16 z-[1] w-full lg:w-fit   flex max-h-16 items-center bg-white-100">
-        <Flex className="p-5 h-16 w-full justify-center items-center border-[1px] border-black-20">
-          <p className="max-lg:caps  uppercase font-sora text-black-87 font-[600] leading-[150%]">
-            Quero fazer parte do Club
+      <button className="w-full lg:w-fit h-16  flex max-h-16 items-center bg-white-100">
+        <Flex className="max-lg:w-full p-5 h-16 justify-center items-center border-r-0 border-[1px] border-black-20">
+          <p className="font-sora uppercase text-black-87 font-[600] leading-[150%]">
+            QUERO FAZER PARTE DO CLUB
           </p>
         </Flex>
         <Flex className="p-5 h-16 items-center border-l-[0px] border-[1px] border-black-20">

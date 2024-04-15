@@ -8,12 +8,8 @@ interface Props {
   handleCurrentImage: (image: string) => void;
 }
 
-export const MobileBeneficios = ({ handleCurrentImage }: Props) => {
+export const MobileBeneficios = () => {
   const [selected, setSelected] = useState(cards[0]);
-
-  useEffect(() => {
-    handleCurrentImage(selected.image);
-  }, [selected]);
 
   return (
     <Flex className="flex-col gap-8 py-8 w-full">
@@ -42,6 +38,7 @@ export const MobileBeneficios = ({ handleCurrentImage }: Props) => {
       ) : (
         <BeneficiosItem
           title={selected.title}
+          smallImage={selected.smallImage}
           isLast={selected.title === cards[cards.length - 1].title}
         />
       )}
