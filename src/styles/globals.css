@@ -86,4 +86,5 @@ a {
   .caps-sm {
     @apply text-black-100 text-[12px] uppercase font-poppins font-[600] leading-[100%] tracking-[1.2px];
   }
+  
 }

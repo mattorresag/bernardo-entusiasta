@@ -9,7 +9,7 @@ export const JunteSe = () => {
         width: "100%",
         height: "100vh",
         backgroundImage:
-          "linear-gradient(0deg, rgba(217, 217, 217, 0.00) 0%, rgba(217, 217, 217, 0.02) 14.46%, rgba(217, 217, 217, 0.04) 29.4%, rgba(217, 217, 217, 0.06) 49.44%, rgba(217, 217, 217, 0.04) 67.27%, rgba(217, 217, 217, 0.02) 85.42%, rgba(217, 217, 217, 0.00) 100%), url('/assets/juntese.png')",
+          "linear-gradient(0deg, rgba(217, 217, 217, 0.00) 0%, rgba(217, 217, 217, 0.02) 14.46%, rgba(217, 217, 217, 0.04) 29.4%, rgba(217, 217, 217, 0.06) 49.44%, rgba(217, 217, 217, 0.04) 67.27%, rgba(217, 217, 217, 0.02) 85.42%, rgba(217, 217, 217, 0.00) 100%), url('/assets/Junte-se-ao-club.jpg')",
         backgroundSize: "cover",
       }}
       className="bg-black-100 max-lg:px-[5%] justify-center items-center max-h-[700px] lg:max-h-[975px] gap-14 flex-col"
@@ -21,7 +21,7 @@ export const JunteSe = () => {
           right: 0,
           bottom: 0,
           left: 0,
-          backgroundColor: "rgba(0, 0, 0, 0.93)",
+          backgroundColor: "rgba(0, 0, 0, 0.53)",
         }}
       >
         <div

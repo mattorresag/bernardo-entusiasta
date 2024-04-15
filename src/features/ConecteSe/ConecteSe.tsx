@@ -2,9 +2,10 @@ import React from "react";
 import { Flex } from "../../components/Flex/Flex";
 import { ConecteSeAnimation } from "./ConecteSeAnimation";
 
+
 export const ConecteSe = () => {
   return (
-    <Flex className="w-full py-20 lg:py-[160px] bg-black-100 items-center flex-col gap-[120px] relative">
+    <Flex className="w-full py-20 lg:py-[160px] bg-black-100 items-center flex-col gap-[120px] relative ">
       <Flex className="absolute w-full right-0 top-0">
         <svg
           xmlns="http://www.w3.org/2000/svg"
