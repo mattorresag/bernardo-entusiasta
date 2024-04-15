@@ -25,6 +25,7 @@ export const BeneficiosItem = ({
       <div className="absolute h-[75%] top-0 left-0 w-full" style={{
         backgroundImage: `url('${smallImage}')`,
         backgroundRepeat: "no-repeat",
+        backgroundPosition: "center",
       }} />
       <p className="font-poppins text-[30px] min-[1800px]:text-[36px] text-white-100 font-[500] leading-[130%] tracking-[-0.64px]">
         {title}
