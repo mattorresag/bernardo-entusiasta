@@ -11,6 +11,7 @@ import { ConecteSe } from "../features/ConecteSe/ConecteSe";
 const Home: NextPage = () => {
   return (
     <Layout subtitle="Bernardo Entusiasta | Comunidade">
+
       <FirstSection />
       <SecondSection />
       <ConecteSe />

@@ -18,9 +18,6 @@ export const SobreText = () => {
           {sobreText.first}
         </p>
       </Flex>
-      <Flex className="justify-between items-center">
-
-      </Flex>
     </Flex>
   );
 };

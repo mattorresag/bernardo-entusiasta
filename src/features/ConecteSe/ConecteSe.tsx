@@ -94,7 +94,9 @@ export const ConecteSe = () => {
           </Flex>
         </button>
       </Flex>
-      <ConecteSeAnimation />
+      <Flex className=" w-full">
+        <ConecteSeAnimation />
+      </Flex>
     </Flex>
   );
 };

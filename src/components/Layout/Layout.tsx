@@ -14,7 +14,7 @@ export const Layout = ({
 }: Props): JSX.Element => {
   return (
     <>
-      <div className="w-full min-h-full relative overflow-x-hidden overflow-y-auto">
+      <div className="w-full  min-h-full relative ">
         <PageMeta subtitle={subtitle} />
         <Flex className="w-full" justify="center" align={align}>
           <Flex className="h-full w-full" direction="col">
