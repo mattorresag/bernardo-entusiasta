@@ -188,7 +188,11 @@ export const Footer = () => {
           </svg>
         </Flex>
         <Flex className="max-lg:px-[5%] w-full lg:h-20 z-[1] mb-20 max-lg:flex-col">
-          <Link target="_blank" passHref href="/">
+          <Link
+            target="_blank"
+            passHref
+            href="http://instagram.com/bernardo.entusiasta"
+          >
             <a className="w-full h-20">
               <Flex className="w-full h-full border-[1px] max-lg:border-r-0 uppercase border-white-20 border-l-0 justify-center">
                 <Flex className="items-center text-[16px] tracking-[1.6px] font-[600] leading-[100%] text-white-100 font-poppins">
@@ -219,7 +223,11 @@ export const Footer = () => {
               </Flex>
             </a>
           </Link>
-          <Link target="_blank" passHref href="/">
+          <Link
+            target="_blank"
+            passHref
+            href="https://www.youtube.com/@bernardo.entusiasta"
+          >
             <a className="w-full h-20">
               <Flex className="w-full h-full border-[1px] max-lg:border-r-0 uppercase border-white-20 border-l-0 justify-center">
                 <Flex className="items-center text-[16px] tracking-[1.6px] font-[600] leading-[100%] text-white-100 font-poppins">
@@ -250,7 +258,11 @@ export const Footer = () => {
               </Flex>
             </a>
           </Link>
-          <Link target="_blank" passHref href="/">
+          <Link
+            target="_blank"
+            passHref
+            href="https://www.tiktok.com/@bernardo.entusiasta"
+          >
             <a className="w-full h-20">
               <Flex className="w-full h-full border-[1px] max-lg:border-r-0 uppercase border-white-20 border-l-0 justify-center">
                 <Flex className="items-center text-[16px] tracking-[1.6px] font-[600] leading-[100%] text-white-100 font-poppins">
