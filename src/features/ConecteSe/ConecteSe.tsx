@@ -1,9 +1,11 @@
 import React from "react";
 import { Flex } from "../../components/Flex/Flex";
 import { ConecteSeAnimation } from "./ConecteSeAnimation";
+import { useRouter } from "next/router";
 
 
 export const ConecteSe = () => {
+  const router = useRouter();
   return (
     <Flex className=" py-20 lg:py-[160px] bg-black-100 items-center flex-col gap-[120px] relative ">
       <Flex className="absolute  right-0 top-0 justify-end">
@@ -64,7 +66,7 @@ export const ConecteSe = () => {
           andam de mãos dadas. Junte-se a nós para uma experiência única no
           universo da alta relojoaria.
         </p>
-        <button className="w-full lg:w-fit h-16  flex max-h-16 items-center bg-white-100">
+        <button onClick={() => { router.push('https://www.bernardoentusiasta.com/comunidade') }} className="w-full lg:w-fit h-16  flex max-h-16 items-center bg-white-100">
           <Flex className="max-lg:w-full p-5 h-16 justify-center items-center border-r-0 border-[1px] border-black-20">
             <p className="font-sora uppercase text-black-87 font-[600] leading-[150%]">
               Inscreva-se agora

@@ -1,8 +1,10 @@
 import React from "react";
 import { Flex } from "../../components/Flex/Flex";
 import { ParceirosCarousel } from "./ParceirosCarousel";
+import { useRouter } from "next/router";
 
 export const Parceiros = () => {
+  const router = useRouter()
   return (
     <Flex className="bg-black-100 max-lg:px-[5%] pt-12 lg:pt-[96px] items-center flex-col gap-20 lg:gap-[160px] relative">
       <Flex className="right-0 absolute top-0">
@@ -56,7 +58,7 @@ export const Parceiros = () => {
           </defs>
         </svg>
       </Flex>
-      <button className="w-full lg:w-fit h-16  flex max-h-16 items-center bg-white-100">
+      <button onClick={() => { router.push('https://www.bernardoentusiasta.com/comunidade') }} className=" z-[1] w-full lg:w-fit h-16  flex max-h-16 items-center bg-white-100">
         <Flex className="max-lg:w-full p-5 h-16 justify-center items-center border-r-0 border-[1px] border-black-20">
           <p className="font-sora uppercase text-black-87 font-[600] leading-[150%]">
             QUERO FAZER PARTE DO CLUB

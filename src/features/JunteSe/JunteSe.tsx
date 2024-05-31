@@ -1,7 +1,9 @@
 import React from "react";
 import { Flex } from "../../components/Flex/Flex";
+import { useRouter } from "next/router";
 
 export const JunteSe = () => {
+  const router = useRouter()
   return (
     <Flex
       style={{
@@ -54,7 +56,7 @@ export const JunteSe = () => {
         <p className="font-pt text-center text-[56px] font-[700] lg:text-[88px] z-[1] text-white-100 leading-[125%] tracking-[-2px] lg:tracking-[-1.76px]">
           Junte-se ao nosso Club
         </p>
-        <button className="w-full lg:w-fit h-16  flex max-h-16 items-center bg-white-100">
+        <button onClick={() => { router.push('https://www.bernardoentusiasta.com/comunidade') }} className="w-full lg:w-fit h-16  flex max-h-16 items-center bg-white-100">
           <Flex className="max-lg:w-full p-5 h-16 justify-center items-center border-r-0 border-[1px] border-black-20">
             <p className="font-sora uppercase text-black-87 font-[600] leading-[150%]">
               Inscreva-se agora

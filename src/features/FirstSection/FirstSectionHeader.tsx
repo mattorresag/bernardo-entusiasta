@@ -1,7 +1,9 @@
 import React from "react";
 import { Flex } from "../../components/Flex/Flex";
+import { useRouter } from "next/router";
 
 export const FirstSectionHeader = () => {
+  const router = useRouter();
   return (
     <Flex className="items-center justify-between px-[5%] xl:px-20 max-lg:py-4">
       <span className="hidden lg:block">
@@ -254,7 +256,7 @@ export const FirstSectionHeader = () => {
           </defs>
         </svg>
       </span>
-      <button className="h-16  flex max-h-16 items-center z-[1]">
+      <button onClick={() => { router.push('https://www.bernardoentusiasta.com/comunidade') }} className="h-16  flex max-h-16 items-center z-[1]">
         <Flex className="p-3 lg:p-5 h-[36px] lg:h-16 items-center border-[1px] border-white-20 w-fit">
           <p className="caps-sm inline lg:caps lg:text-white-100 text-white-100">
             INSCREVA-SE <span className="hidden lg:inline">AGORA</span>
