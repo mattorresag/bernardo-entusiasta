@@ -25,13 +25,9 @@ export const MobileBeneficios = () => {
               Descontos
             </p>
             <p className="font-poppins text-[18px] min-[1800px]:text-[20px] text-white-87 leading-[110%] tracking-[-0.4px]">
-              Lorem ipsum dolor sit amet consectetur. Sit vitae vel fermentum
-              dui iaculis sem amet. Tellus interdum Lorem ipsum dolor sit amet
-              consectetur. Sit vitae vel fermentum dui iaculis sem amet. Tellus
-              interdum Lorem ipsum dolor sit amet consectetur. Sit vitae vel
-              fermentum dui iaculis sem amet. Tellus interdum Lorem ipsum dolor
-              sit amet consectetur. Sit vitae vel fermentum dui iaculis sem
-              amet. Tellus interdum{" "}
+              Conecte-se com uma rede global de colecionadores, investidores e especialistas apaixonados pela alta relojoaria. Troque conhecimentos, descubra raridades e estabeleça relacionamentos duradouros.<br />
+              Acesse insights de mercado exclusivos, com informações privilegiadas sobre lançamentos, tendências e valorização de peças. Suas decisões serão orientadas por dados confiáveis e atualizados.<br />
+              Torne-se membro e desfrute de um mundo de benefícios exclusivos junto de grandes parceiros.
             </p>
           </Flex>
         </Flex>
