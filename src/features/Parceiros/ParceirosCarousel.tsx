@@ -1,34 +1,34 @@
 import useEmblaCarousel from "embla-carousel-react";
-import React, { useCallback, useEffect } from "react";
+import React, { useEffect } from "react";
 import { Flex } from "../../components/Flex/Flex";
 import AutoScroll from "embla-carousel-auto-scroll";
 import Image from "next/image";
 
 const carouselWords = [
-  '/assets/cellar.png',
-  '/assets/g4.png',
-  '/assets/impala.png',
-  '/assets/cellar.png',
-  '/assets/g4.png',
-  '/assets/impala.png',
-  '/assets/cellar.png',
-  '/assets/g4.png',
-  '/assets/impala.png',
-  '/assets/cellar.png',
-  '/assets/g4.png',
-  '/assets/impala.png',
-  '/assets/cellar.png',
-  '/assets/g4.png',
-  '/assets/impala.png',
-  '/assets/cellar.png',
-  '/assets/g4.png',
-  '/assets/impala.png',
-  '/assets/cellar.png',
-  '/assets/g4.png',
-  '/assets/impala.png',
-  '/assets/cellar.png',
-  '/assets/g4.png',
-  '/assets/impala.png',
+  "/assets/cellar.svg",
+  "/assets/g4.svg",
+  "/assets/impala.svg",
+  "/assets/cellar.svg",
+  "/assets/g4.svg",
+  "/assets/impala.svg",
+  "/assets/cellar.svg",
+  "/assets/g4.svg",
+  "/assets/impala.svg",
+  "/assets/cellar.svg",
+  "/assets/g4.svg",
+  "/assets/impala.svg",
+  "/assets/cellar.svg",
+  "/assets/g4.svg",
+  "/assets/impala.svg",
+  "/assets/cellar.svg",
+  "/assets/g4.svg",
+  "/assets/impala.svg",
+  "/assets/cellar.svg",
+  "/assets/g4.svg",
+  "/assets/impala.svg",
+  "/assets/cellar.svg",
+  "/assets/g4.svg",
+  "/assets/impala.svg",
 ];
 
 export const ParceirosCarousel = () => {
@@ -64,7 +64,13 @@ export const ParceirosCarousel = () => {
               align="center"
               className="flex-shrink-0 relative h-full justify-center border-b-0 relative px-[86px] border-[1px] border-r-0 border-white-20"
             >
-              <Image src={item} width={200} quality={100} height={122} className="object-cover" />
+              <Image
+                src={item}
+                width={200}
+                quality={100}
+                height={122}
+                className="object-cover"
+              />
             </Flex>
           ))}
         </Flex>
