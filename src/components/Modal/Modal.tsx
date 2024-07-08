@@ -80,9 +80,7 @@ export const Modal = ({
           onClick={handleOverlayClick}
         >
           <Flex
-            className={`w-screen  ${
-              height ? height : "h-full lg:h-[80%]"
-            }  absolute m-auto left-0 lg:top-0 right-0 bottom-0 z-[100] lg:w-fit`}
+            className={` absolute m-auto left-0 lg:top-0 right-0 bottom-0 z-[100] w-[80%] h-[80%]`}
             style={dialogStyle}
           >
             {children}
