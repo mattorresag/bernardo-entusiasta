@@ -29,12 +29,6 @@ const PageMeta = ({ subtitle }: Props) => {
           type: "website",
           locale: "pt_BR",
           url: ``,
-          // images: [
-          //   {
-          //     url: "https://${client}.comlogogrande.png",
-          //     alt: "Logo ${client}",
-          //   },
-          // ],
           description: ``,
         }}
       />
@@ -46,18 +40,8 @@ const PageMeta = ({ subtitle }: Props) => {
           sizes="152x152"
           href="apple-touch-icon.png"
         />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="32x32"
-          href="favicon-32x32.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="16x16"
-          href="favicon-16x16.png"
-        />
+        <link rel="icon" type="image/jpg" sizes="32x32" href="favicon.jpg" />
+        <link rel="icon" type="image/jpg" sizes="16x16" href="favicon.jpg" />
         <link rel="manifest" href="site.webmanifest" />
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />

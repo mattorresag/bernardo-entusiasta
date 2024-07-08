@@ -293,37 +293,6 @@ export const Footer = () => {
               </Flex>
             </a>
           </Link>
-          <Link target="_blank" passHref href="/">
-            <a className="w-full h-20">
-              <Flex className="w-full h-full border-[1px] max-lg:border-r-0 uppercase border-white-20 border-l-0 justify-center">
-                <Flex className="items-center text-[16px] tracking-[1.6px] font-[600] leading-[100%] text-white-100 font-poppins">
-                  Twitter
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="20"
-                    height="20"
-                    viewBox="0 0 20 20"
-                    fill="none"
-                  >
-                    <g clip-path="url(#clip0_81_1155)">
-                      <path
-                        d="M7.77126 7.40037L13.428 7.40037M13.428 7.40037L6.8285 14.0001M13.428 7.40037L13.4279 13.0572"
-                        stroke="white"
-                        stroke-opacity="0.7"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </g>
-                    <defs>
-                      <clipPath id="clip0_81_1155">
-                        <rect width="20" height="20" fill="white" />
-                      </clipPath>
-                    </defs>
-                  </svg>
-                </Flex>
-              </Flex>
-            </a>
-          </Link>
         </Flex>
         <Flex className="w-full px-[5%] justify-center items-center">
           <p className="h4 text-center text-white-70">
